@@ -1,0 +1,24 @@
+# Ignora a pasta com os pacotes instalados via npm
+node_modules/
+
+# Bloqueia arquivos de log criados durante execução
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Evita conflitos com editores de código
+.vscode/
+.idea/
+
+# Arquivos temporários comuns
+*.tmp
+*.swp
+*.swo
+
+# Ignora diretórios de build (se um dia você usar)
+dist/
+.cache/
+
+# Ignora o travamento automático de dependências (opcional)
+package-lock.json
