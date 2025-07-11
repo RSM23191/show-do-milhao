@@ -30,4 +30,5 @@ Este projeto é um jogo de perguntas e respostas estilo “Show do Milhão”, d
 2. Extraia a pasta no seu computador.
 3. Abra o **terminal** e navegue até a pasta extraída:
    ```bash
-   cd caminho/da/pasta
+npm install readline-sync
+node index.js
