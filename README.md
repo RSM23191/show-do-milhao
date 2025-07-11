@@ -14,6 +14,12 @@ Como Jogar
 2. Escolha a alternativa correta.
 3. Digite 0 para parar.
 
-Como Executar
-No terminal:
+1. Execute `node index.js` no terminal.  
+2. Digite seu nome.  
+3. Responda cada pergunta ou digite 0 para parar.  
+4. Após 5 ou erro/desistência, o jogo termina.
+
+## 💻 Como Executar no Computador  
 ```bash
+npm install readline-sync
+npm start
