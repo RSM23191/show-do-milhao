@@ -1,25 +1,33 @@
-# Show do Milhão - Jogo em Node.js
+# 🟡 Show do Milhão - Jogo em Node.js
 
-Nome do autor
-Seu nome completo aqui
+##  Autor  
+Ray Silva Matos
 
-Regras do Jogo
-- O jogador deve responder perguntas de múltipla escolha.
-- A cada acerto, acumula dinheiro.
-- Pode parar e levar o valor acumulado.
-- Se errar, perde tudo.
+---
 
-Como Jogar
-1. Digite seu nome no início.
-2. Escolha a alternativa correta.
-3. Digite 0 para parar.
+## Enunciado  
+Este projeto é um jogo de perguntas e respostas estilo “Show do Milhão”, desenvolvido em **JavaScript com Node.js**, executado totalmente pelo terminal. O objetivo é responder corretamente o máximo de perguntas e acumular o maior valor em prêmios.
 
-1. Execute `node index.js` no terminal.  
-2. Digite seu nome.  
-3. Responda cada pergunta ou digite 0 para parar.  
-4. Após 5 ou erro/desistência, o jogo termina.
+---
 
-## 💻 Como Executar no Computador  
-```bash
-npm install readline-sync
-npm start
+## 🕹Regras do Jogo
+
+- O jogador informa o **nome** no início.
+- Cada **rodada** possui uma pergunta e 3 alternativas (1, 2 ou 3).
+- A premiação aumenta a cada rodada.
+- O jogador pode:
+  - Digitar **1, 2 ou 3** para responder.
+  - Digitar **9** para usar a **ajuda dos universitários** (uma dica).
+  - Digitar **0** para **parar** o jogo e levar o prêmio acumulado.
+- Se errar uma pergunta, perde tudo.
+- São 15 perguntas no total.
+
+---
+
+## Como Jogar
+
+1. Baixe o projeto clicando em **Code > Download ZIP**.
+2. Extraia a pasta no seu computador.
+3. Abra o **terminal** e navegue até a pasta extraída:
+   ```bash
+   cd caminho/da/pasta
