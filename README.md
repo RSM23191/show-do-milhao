@@ -23,4 +23,16 @@ Este projeto é um jogo de perguntas e respostas estilo “Show do Milhão”, d
 - São 15 perguntas no total.
 
 ---
+## ▶️ Como Jogar
+
+1. Baixe o projeto clicando em **Code > Download ZIP**.
+2. Extraia a pasta no seu computador.
+3. Abra o **terminal** (Prompt de Comando).
+4. Acesse a pasta onde extraiu o projeto. Exemplo:
+   ```bash
+   cd Desktop/show-do-milhao-main
+5.Instale a biblioteca necessária com:
+npm install readline-sync
+6.Inicie o jogo com:
+node index.js
 
