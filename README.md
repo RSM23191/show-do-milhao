@@ -33,6 +33,7 @@ Este projeto é um jogo de perguntas e respostas estilo “Show do Milhão”, d
    cd Desktop/show-do-milhao-main
 5.Instale a biblioteca necessária com:
 npm install readline-sync
+
 6.Inicie o jogo com:
 node index.js
 
