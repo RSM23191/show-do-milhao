@@ -24,11 +24,3 @@ Este projeto é um jogo de perguntas e respostas estilo “Show do Milhão”, d
 
 ---
 
-## Como Jogar
-
-1. Baixe o projeto clicando em **Code > Download ZIP**.
-2. Extraia a pasta no seu computador.
-3. Abra o **terminal** e navegue até a pasta extraída:
-   ```bash
-npm install readline-sync
-node index.js
